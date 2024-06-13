@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.background {
+    background-image: url(/assets/img/jungle-background-forest-nature-scene-futuristic-generative-ai\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+
+
+}
+
+header {
+    background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    min-height: 100px;
+    background: linear-gradient(359deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
+}
+
+.pos-realtive {
+    position: relative;
+}
+
+.social {
+    display: flex;
+}
+
+
+header {
+    padding-top: 34px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-space {
+    justify-content: space-between;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.gap46 {
+    gap: 46px;
+
+}
+
+.home {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.light {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: aliceblue;
+
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF;
+    border-radius: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.light:hover {
+    color: white;
+}
+
+.circle:hover {
+    background-color: white;
+
+
+}
+
+.circle:hover svg path {
+    fill: black;
+
+
+}
+
+button {
+    width: 144px;
+    height: 51px;
+    top: 25px;
+    left: 1146px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 36px;
+    opacity: 0px;
+    background: #FFC20A;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.17px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.line1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.line2 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+    color: #3B945E;
+    margin-bottom: 16px;
+}
+
+span {
+    font-family: "Exo 2", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.line3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.box1 {
+    margin-top: 164px;
+}
+
+.box2 {
+    margin-top: 40px;
+}
+
+.gap8 {
+    gap: 8px;
+}
+
+.mr18 {
+    margin-right: 90x;
+}
+
+.discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-now {
+    --c: goldenrod;
+    color: var(--c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    border-radius: 36px;
+    
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+
+
+
+
+
+
+
+
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+/*------------------------------------------------------------------Responisve-----------------------------------------------------------------*/
+@media (max-width:992px) {
+    .lg-view {
+        flex-direction: column;
+
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: black;
+        position: fixed;
+        top: 0%;
+        right: -100%;
+        z-index: 4;
+        transition: all 0.3s;
+    }
+
+    .ml407 {
+        margin-right: 0;
+    }
+
+    label[for="menubar"] {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+    }
+
+    label[for="menubar"] span {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        z-index: 5;
+    }
+
+    input[type="checkbox"]:checked~.lg-view {
+        right: 0;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .line1 {
+        text-align: center;
+    }
+
+    .line2 {
+        text-align: center;
+    }
+
+    .line3 {
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width:576px) {
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .line1 {
+        text-align: center;
+    }
+
+    .line2 {
+        text-align: center;
+    }
+
+    .line3 {
+        text-align: center;
+    }
+
+}
